@@ -1,0 +1,8 @@
+<div class="container"><div class="row" style="padding-bottom: 50px">
+  <div class="col">
+    <Label> Rows</Label>      <input #row type="number" [(ngModel)]="rows" class="form-control" (change)="send(row.value,0)" >
+
+  </div>
+  <div class="col"> <Label> Columns</Label>  <input #col type="number" [(ngModel)]="cols" class="form-control"   (change)="send(0,col.value)" ></div>
+
+</div></div>
